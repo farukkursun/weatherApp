@@ -75,7 +75,7 @@ try {
   if (spanListArray.includes(data.name)) {
 
     not.textContent =
-      `You already know the weater for a ${input.value}, pelease search for enother City` ;
+      `You already know the weater for ${input.value}, pelease search for enother City` ;
       setTimeout (()=>{
         not.textContent=''
       },5000)
