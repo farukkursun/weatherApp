@@ -1,11 +1,18 @@
+*{
+    box-sizing: border-box;
+}
 body{
     height: 100vh;
    
     background-color: rgb(20, 120, 187) !important;
 }
-img{
-    background-color:  rgb(20, 120, 187) !important;
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
 }
+
 .btn{
     width: 10rem;
     height: 4rem;
@@ -13,7 +20,8 @@ img{
 
 }
 .city{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    
     width: 45vw;
     
     font-size: 2rem;
@@ -33,20 +41,32 @@ img{
 }
 
 .baslik{
-    font-size: 8rem !important;
+    font-size: 6rem !important;
 }
 .ekran{
+    
     display: flex;
 }
 .not{
+   
+    height: 2rem;
+   width: 100%;
     color: white !important;
-    font-size: 2rem;
+    font-size: 1.3rem;
+   
+  padding-left: 8rem;
+    
+    
+    
 }
 .card{
     border-radius: 20px !important;
-    box-shadow: 0 30px  lightblue;
+    box-shadow: 10px 20px  lightblue;
 }
-/* .resim{
-    background-color: white !important;
-    color: black !important;
-} */
+.ülke{
+    padding: 2px 4px;
+    border-radius: 8px;
+}
+.sup{
+    font-weight: 300;
+}
