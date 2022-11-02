@@ -27,4 +27,4 @@ In diesem Projekt wurde eine Wetter-App mit Javascript, CSS, HTML erstellt. Info
 - CSS
 - JS
 
-![proje image](https://raw.githubusercontent.com/farukkursun/CalculatorMitJs/master/weatherapp.png)
+![proje image](https://raw.githubusercontent.com/farukkursun/weatherApp/master/weatherapp.png)
