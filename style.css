@@ -41,11 +41,12 @@ body{
 }
 
 .baslik{
+    margin-top: 2rem;
     font-size: 6rem !important;
 }
 .ekran{
-    
     display: flex;
+    text-align: center;
 }
 .not{
    

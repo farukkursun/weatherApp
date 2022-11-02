@@ -15,8 +15,7 @@ form.addEventListener("submit", async (event) => {
     const data = await fetch(
       `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${idNumber}&units=metric`
     ).then((response) => response.json());
-    // console.log(data);
-    // getir(input.value);
+    
     if (spanListArray.includes(data.name)) {
       not.textContent = `You already know the weater for ${input.value}, pelease search for enother City!`;
       setTimeout(() => {
@@ -24,8 +23,7 @@ form.addEventListener("submit", async (event) => {
       }, 5000);
     } else {
       ekranabastir(data);
-      //  liste.push(input.value);
-      //  console.log(liste);
+      
     }
   } catch (error) {
     not.textContent = "City not found !";
